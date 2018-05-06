@@ -1,0 +1,426 @@
+*{
+    margin: 0.1%;
+    padding: 0;
+   font-family: 'Revalia', sans-serif;
+    
+  
+}
+
+
+
+
+body{
+    background-image: url(bg.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+ opacity: 0.9;
+
+   
+}
+
+
+
+
+.logo{
+   
+  background: black;
+  
+    text-align: center;
+    box-shadow: 0px 5px 50px 1px rgba(0,0,0,1);
+    
+   
+}
+
+.logo img{
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    border: 5px dashed red;
+}
+
+.logo img:hover{
+    background-image: url(bg.gif);
+    max-width: 55%;
+    transition: 1s ease-in;
+}
+
+nav{
+   display: block;
+    margin: auto;
+
+}
+
+
+
+nav a {
+    border: 1px solid white;
+    font-size: 2vw;
+    color: black;
+   margin: 1%;
+    padding: 1%;
+    
+    text-decoration: none;
+    display: inline-block;
+background: red;
+
+}
+
+
+
+nav a:hover{
+    opacity: 0.9;
+    transition: 1ms linear;
+    background-image: url(bg.gif);
+    color: white;
+    font-size: 2.5vw;
+    border: 1px solid red;
+    
+    
+}
+
+
+
+.hero {
+    display: block;
+    background-image: url(hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+ height: 100vh;
+ 
+    margin-top: 5%;
+   box-shadow: 0px 5px 50px 1px rgba(0,0,0,1);
+ 
+}
+
+
+
+
+
+.hero h1{
+    top: 20%;
+    left: 0;
+    position: relative;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+   text-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+    
+}
+
+.hero:hover h1 > i{
+    font-size: 9vw;
+    color: red;
+    opacity: 0.9;
+  border-bottom: 10px dashed white;
+    transition: 0.5s ease-in;
+}
+    
+    
+#about {
+  
+    margin-top: 1%;
+    padding: 1%;
+    
+
+    
+}
+
+
+
+
+.drop {
+    break-inside: avoid;
+    background: red;
+   text-align: center;
+    display: block;
+    font-size: 2vw;
+    color: white;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+    border: 5px dashed black;
+}
+
+.drop p {
+    text-align: left;
+    padding: 1%;
+    display: inline-flex;
+    visibility: hidden;
+    background: black;
+    color: red;
+margin: 1%;
+    font-size: 1.5vw;
+    border: 5px dashed red;
+    transition: all 0s ease 5s;
+  
+}
+
+.drop:hover p {
+    opacity: 0.8;
+    visibility: visible;
+    transition-delay: 0s;
+}
+ 
+
+
+ 
+   
+    
+    
+.meet h1{
+    margin-top: 1%;
+    background: black;
+    border: 5px dashed red;
+    text-align: center;
+    font-size: 7vw;
+    color: red;
+      text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+}
+    
+.meet h1:hover{
+    font-size: 7.5vw;
+    background: white;
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s ease-in;
+    box-shadow: 0px 5px 50px 1px rgba(0,0,0,1);
+}
+    
+.browse {
+    margin-top: 1%;
+    display: block;
+    padding: 1%;
+width: 90vw;
+    margin: auto;
+    font-size: 1.5vw;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+    box-shadow: 0px 5px 50px 1px rgba(0,0,0,1);
+    border: 1px solid white;
+}
+
+.browse a{
+    color: white;
+}
+
+.browse a:hover{
+    color: red;
+    opacity: 0.7;
+    transition: 0.1s linear;
+    
+}
+
+
+.meet h2{
+    background: black;
+    width: 20vw;
+    margin: auto;
+    display: block;
+    color: red;
+    margin-top: 1%;
+    font-size: 3vw;
+    border: 5px dotted red;
+    text-align: center;
+}
+
+.meet h2:hover{
+    font-size: 3.5vw;
+      color: white;
+    text-decoration: underline;
+    transition: 0.1s ease-in;
+}
+
+
+
+.meet img{
+ 
+    width: 40%;
+margin: auto;
+    display: block;
+    margin-top: 5%;
+     box-shadow: 0px 1px 5px 0px rgba(0,0,0,1);
+    border: 5px dashed red;
+}
+
+.meet img:hover{
+    opacity: 0.9;
+    border: 5px dotted red;
+    transition: 1s ease-in;
+    width: 45%;
+}
+
+
+h3{
+    font-size: 2vw;
+    color: white;
+    background: black;
+    display: block;
+    width: 20vw;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+     box-shadow: 0px 1px 5px 0px rgba(0,0,0,1);
+}
+
+
+.meet p{
+    margin-top: 1%;
+    border: 20px dotted white;
+    text-align: left;
+    padding: 5%;
+    color: red;
+    font-size: 1.5vw;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.link{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+.link a{
+color: red;
+    padding: 1%;
+margin-top: 1%;
+    display: inline-block;
+    background: #3C1518;
+   text-align: center;
+    width: 200px;
+}
+
+.link a:hover{
+    color: white;
+}
+
+
+
+.list{
+    margin-top: 1%;
+   text-align: center;
+    padding-bottom: 1%;
+}
+
+.list ul{
+    text-align: center;
+margin: auto;
+    display: inline-block;
+     background: #3C1518;
+   
+}
+
+
+
+
+li{
+    font-size: 1vw;
+    width: 10vw;
+    text-align: center;
+    list-style: decimal;
+    color: red;
+    background: white;
+    margin: 1%;
+    padding: 1%;
+ 
+}
+
+h3:hover{
+  
+    color: red;
+    border: 1px solid red;
+}
+
+
+
+
+li:hover{
+    font-size: 1.5vw;
+    color: red;
+    border: 1px solid red;
+    transition: 0.1s ease-in;
+}
+
+
+
+
+.contact{
+    background: black;
+    color: red;
+  width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.contact h1{
+    color: red;
+    margin-top: 1%;
+    font-size: 2vw;
+    text-align: center;
+    background: #CA054D;
+    text-shadow: 0 1px 20px black;
+}
+
+.contact a{
+    color: white;
+    width: 15vw;
+    text-decoration: none;
+    font-size: 1vw;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1%;
+    background: red;
+     text-shadow: 0 1px 20px black;
+    
+}
+
+
+
+h5{
+    text-align: center;
+    color: red;
+}
+
+
+.contact a:hover{
+    font-size: 1.5vw;
+    color: white;
+}
+
+
+
+
+#about, #meet{
+    background: #3B252C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

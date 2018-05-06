@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: .3s ease-in;
+    text-shadow: 0 0 10px black;
+    box-sizing: border-box;
+font-family: 'Sarpanch', sans-serif;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+   
+    background: radial-gradient(ellipse at center, rgba(255,0,0,1) -20%, rgba(0,0,0,1) 80%);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.content{
+ background: radial-gradient(ellipse at center, rgba(255,0,0,1) -20%, rgba(0,0,0,1) 80%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 50px black;
+
+    
+}
+
+section{
+   border-bottom: 100px dotted black;
+}
+
+#home, #info, #works{
+    margin-bottom: 5%;
+   
+}
+
+
+
+nav {
+  text-align: center;
+ transform: translateY(-1000px);
+  right: 0;
+    position: fixed;
+    width: 20%;
+
+    
+   
+}
+
+
+nav a {
+  
+  display: block;
+  background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+  color: black;
+    text-decoration: none;
+  font-size: 2vw;
+  padding: 5%;
+    margin: 5%;
+  cursor: pointer;
+  border-bottom: 5px groove white;
+ 
+}
+
+nav a:hover {
+  background: black;
+    transform: rotateY(360deg);
+    transition: 0.5s linear;
+    color: red;
+}
+
+
+#menu-box {
+  display: none;
+}
+
+
+.btn-menu {
+    color: red;
+    text-align: center;
+    font-size: 3vw;
+  background: black;
+ width: 20%;
+  cursor: pointer;
+    position: fixed;
+       border-bottom: 1px solid red;
+
+ 
+}
+
+.btn-menu:hover{
+    background: red;
+    color: black;
+    font-size: 3.5vw;
+    transform: rotateX(360deg);
+    transition: 0.5s linear;
+    box-shadow: 0 0 30px black;
+   
+}
+
+#menu-box:checked ~ .btn-menu {
+  background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+    color:  white;
+    
+}
+
+
+#menu-box:checked ~ nav {
+ transform: rotate(360deg);
+   
+}
+
+
+
+
+
+
+
+#home img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-bottom: 5%;
+  
+        
+  
+}   
+
+#home img:hover{
+     transform: rotateX(1080deg);
+    transition: 2s ease;
+}
+
+
+
+
+#home h1{
+    font-size: 3.5vw;
+    text-align: center;
+    color: white;
+}
+
+
+h1{
+    color: red;
+    font-size: 8vw;
+text-align: center;
+    text-decoration: overline dashed black;
+    
+}
+
+
+
+h1:hover{
+     transform: rotateY(360deg);
+    transition: 1s ease;
+    transition-delay: 0.5s;
+    color: black;
+  
+}
+
+
+#info img{
+    margin: auto;
+    padding: 5%;
+    width: 60%;
+    display: block;
+    background: black;
+    box-shadow: 0 0 50px 5px black;
+}
+
+
+
+#info img:hover{
+    transform: rotateY(1080deg);
+    transition: 0.5s ease;
+}
+
+
+
+#info ul{
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+#info h3{
+    color: white;
+    font-size: 3vw;
+}
+
+
+#info li{
+    list-style: none;
+    font-size: 2vw;
+    color: black;
+
+  
+}
+
+
+
+
+#works li{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 4vw;
+    list-style: none;
+    text-align: center;
+    border-bottom: 5px solid red;;
+     border-top: 5px solid red;
+}
+
+
+
+
+.thumbs{
+  text-align: center;
+    color: white;
+    font-size: 1vw;
+    width: 95%;
+    display: block;
+    margin: auto;
+   
+}
+
+.thumbs img{
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 5%;
+    display: block;
+   box-shadow: 0 0 50px black;
+    
+}
+
+
+
+.thumbs img:hover{
+ box-shadow: 0 0 50px red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+text-align: center;
+
+}
+
+
+.slideshow-container img{
+    width: 50%;
+    box-shadow: 0 0 50px black;
+   
+}
+
+
+
+.slideshow-container img:hover{
+    box-shadow: 0 0 50px red;
+}
+
+
+
+
+
+.mySlides {
+
+    display: none;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+padding: 5%;
+  color: white;
+ 
+  font-size: 2vw;
+
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+
+text-decoration: underline;
+    color: black;
+    font-size: 2.5vw;
+}
+
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+iframe{
+    margin: auto;
+    display: block;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+
+iframe:hover{
+    box-shadow: 0 0 50px  red;
+}
+
+#works h3{
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+
+.links a{
+    text-decoration: underline;
+    color: red;
+    font-size: 3vw;
+   text-align: center;
+margin: auto;
+    display: block;
+    margin-bottom: 5%;
+}
+
+
+.links a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 1%; /* Some padding */  
+    margin: auto;
+    display: block;
+    text-align: center;
+   
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: red;
+    color: black;
+    padding: 1%;
+  margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: black;
+    color: red;
+}
+
+/* Add a background color and some padding around the form */
+.contact {
+    border-radius: 5%;
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    padding: 1%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 50px black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+width: 2%;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: black;
+}
+::-webkit-scrollbar-thumb:vertical {
+
+background-color: red;
+
+
+

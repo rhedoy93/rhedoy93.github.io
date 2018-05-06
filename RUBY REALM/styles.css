@@ -1,0 +1,705 @@
+*{
+    margin: 1%;
+    padding: 0;
+    text-decoration: none;
+    
+    
+}
+
+
+
+body{
+height: 100vh;
+}
+
+
+
+
+
+
+
+.bg1{
+    
+    background-image: url(1.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.logo img{
+   display: block;
+    width: 100em;
+  max-width: 100%;
+    margin: auto;
+    
+}
+
+nav {
+    margin: auto;
+    display: block;
+   text-align: center;
+max-width: 500px;
+ 
+    
+    
+    
+   
+}
+
+nav a{
+    display: block;
+    background-color: darkred;
+    font-size: 20px;
+    font-family: serif;
+    text-decoration: none;
+    letter-spacing: 10px;
+    margin: 5%;
+   box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+    border-radius: 200px 200px 0px 0px;
+    border: 5px dotted black;
+    text-shadow: 0px 3px 1px black;
+    
+ 
+    
+  
+}
+
+nav a:link, nav a:visited {
+    color: ghostwhite;
+    
+   
+}
+
+nav a:hover {
+    color: red;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pic1{ 
+
+    background-image: url(night2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+   height: 100%;
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    
+    
+}
+
+
+
+
+
+
+
+
+.pic1 h1{
+   
+   position: relative;
+    top: 30%;
+    font-size: 5vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+   
+
+   
+ 
+    
+}
+
+
+
+
+
+.t1 { 
+    background-image: url(hotel2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    height: 100%;
+    
+}
+
+
+.t1 a{
+     display: block;
+   position: relative;
+    top: 30%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+
+    text-decoration: underline;
+ 
+    
+}
+
+
+
+
+
+
+.t2 { 
+    background-image: url(food.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+   
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    height: 100%;
+    
+}
+
+
+.t2 a{
+    display: block;
+   position: relative;
+    top: 30%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+    text-decoration: underline;
+ 
+    
+}
+
+
+
+.t3 { 
+    background-image: url(creepy.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+height: 100%;
+    
+    
+}
+
+
+.t3 a{
+     display: block;
+   position: relative;
+    top: 30%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center; text-decoration:  underline;
+ 
+    
+}
+
+h3{
+    font-size: 20px;
+    color: red;
+    font-family: serif;
+
+      text-shadow: 0px 3px 1px black;
+}
+
+footer{
+    display: inline;
+   text-align: center;
+
+}
+
+footer li{
+    width: 50%;
+  display: inline;
+    background-color: darkred;
+     box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+}
+
+
+
+
+
+ul {
+    text-align: center; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.bg2{
+    height: 100%;
+     background-image: url(2.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
+.pic2{ 
+
+    background-image: url(hotel2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    
+    
+}
+
+
+
+
+
+
+
+
+.pic2 h1{
+    display: block;
+   position: relative;
+    top: 30%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+    text-decoration: underline;
+   
+
+   
+ 
+    
+}
+
+
+
+p{
+     box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    background-color: darkred;
+    font-size: 2em;
+    font-family: monospace;
+    color: ghostwhite;
+    padding: 5%;
+    text-align: center;
+}
+
+b{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.bg3{
+height: 100%;
+     background-image: url(3.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+
+
+
+
+
+
+.pic3{ 
+
+    background-image: url(food.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+height: 100%;
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    
+    
+}
+
+
+
+
+
+
+
+
+.pic3 h1{
+    display: block;
+   position: relative;
+    top: 50%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+    text-decoration: underline;
+   
+
+   
+ 
+    
+}
+
+
+.banner{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    text-shadow: 0px 3px 1px black;
+    font-family: serif;
+    
+    
+}
+
+
+
+.p1 { 
+    background-image: url(creepy.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+    height: 100%;
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    
+    
+}
+
+
+.p1 h2{
+     display: block;
+   position: relative;
+    top: 30%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+
+    text-decoration: underline;
+ 
+    
+}
+
+
+
+
+
+
+.p2 { 
+    background-image: url(creep2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+
+   height: 100%;
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    
+    
+}
+
+
+.p2 h2{
+    display: block;
+   position: relative;
+    top: 40%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+    text-decoration: underline;
+ 
+    
+}
+
+
+
+.p3 { 
+    background-image: url(night2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+  height: 100%;
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    
+    
+}
+
+
+.p3 h2{
+     display: block;
+   position: relative;
+    top: 30%;
+    font-size: 10vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center; text-decoration:  underline;
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg4{
+   
+     background-image: url(4.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
+
+.pic4{ 
+    height: 100%;
+    background-image: url(night.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+    
+   
+   box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+}
+    
+    
+
+
+
+.pic4 h1{
+    display: block;
+   position: relative;
+    top: 30%;
+    font-size: 5vw;
+ 
+    color: red;
+    font-family: serif;
+
+   text-shadow: 0px 3px 1px black;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+
+.form{
+    display: inline;
+   text-align: center;
+}
+
+.form input{
+    text-align: center;
+   display: inline;
+    background-color: darkred;
+     box-shadow: 0px 1px 10px 1px rgba(0,0,0,1);
+    width: 30vw;
+}
+    
+
+
+
+
+h2{
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    color: red;
+    text-shadow: 0px 3px 1px black;
+    font-family: serif;
+}
+
+
+
+a:hover, img:hover{
+    opacity: 0.5;
+}
+
+
+
+h2:hover, img:hover{
+    
+    opacity: 0.5;
+}
+    
+
+
+
+
+
+
+@media screen and (max-width: 1000px)
+
+{
+    .t1{
+        height: 10%;
+    }
+
+.t2{
+        height: 10%;
+    }
+    .t3{
+        height: 10%;
+    }
+    
+    .pic1{
+        height: 10%;
+    }
+    
+    .pic2{
+        height: 10%;
+    }
+    
+    .pic3{
+        height: 10%;
+    }
+    
+    .pic4{
+        height: 10%;
+    }
+    
+    
+    
+    .p1{
+        height: 10%;
+    }
+    
+    
+    
+    
+    
+    .p2{
+        height: 10%;
+    }
+    
+    
+    
+    
+    .p3{
+        height: 10%;
+    }
+    
+    li {
+    width: 100%;
+        
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
